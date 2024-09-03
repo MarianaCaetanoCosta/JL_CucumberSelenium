@@ -37,7 +37,7 @@ public class LoginSteps {
 
     @Entao("valido que o login foi realizado")
     public void validoQueOLoginFoiRealizado() {
-        assertEquals("Boas vindas, admin!", loginPage.obterMensagemBoasVindas());
+        assertEquals("Boas vindas, "+ usuario +"!", loginPage.obterMensagemBoasVindas());
 
     }
     @After

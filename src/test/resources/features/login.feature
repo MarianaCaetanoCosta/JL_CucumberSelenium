@@ -20,5 +20,5 @@
       Exemplos:
         | usuario | senha |
         | admin | admin |
-        | admin | admin |
+        | mariana | 27021987 |
 
